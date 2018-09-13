@@ -12,6 +12,8 @@ Springer, 2011.
 
 ## Building
 
+### By hand
+
 This library builds with Coq between (at least) v8.6.0 and v8.8.1.
 
 To build and install this library, run:
@@ -20,3 +22,16 @@ To build and install this library, run:
 make
 make install
 ```
+
+### Using [OPAM]
+
+You can also get and install this library using [OPAM] and the
+[coq-released](https://coq.inria.fr/opam/released) repository (see the
+[official documentation](https://coq.inria.fr/opam/www/using.html)):
+
+```
+opam repo add coq-released https://coq.inria.fr/opam/released
+opam install coq-bellantonicook
+```
+
+[OPAM]: https://opam.ocaml.org/
